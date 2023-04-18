@@ -1,0 +1,20 @@
+
+train_info:
+  training: True # for batch_norm
+  seed: 777
+
+  lr: 0.0001
+  epoch: 200
+  batch_size: 64
+  iters_per_epoch: 64
+  
+  save_root: 'ckpt/'
+
+dataset:
+  domain_factor: "weather"
+  difficulty: "easy"
+  data_root: "carla_data/"
+  
+  
+  
+  
